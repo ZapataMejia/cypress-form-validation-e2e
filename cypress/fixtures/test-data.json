@@ -1,0 +1,45 @@
+{
+  "login": {
+    "valid": {
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!"
+    },
+    "invalid": {
+      "username": "invaliduser",
+      "password": "wrongpassword"
+    },
+    "empty": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "email": {
+    "valid": [
+      "test@example.com",
+      "user.name@domain.co.uk",
+      "firstname+lastname@example.com",
+      "email@123.123.123.123",
+      "user@domain-one.com"
+    ],
+    "invalid": [
+      "plainaddress",
+      "@missingdomain.com",
+      "missing@.com",
+      "missing@domain",
+      "spaces in@domain.com",
+      "user@domain..com",
+      "user@domain",
+      "user name@domain.com"
+    ]
+  },
+  "form": {
+    "requiredFields": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "1234567890",
+      "message": "This is a test message"
+    }
+  }
+}
+

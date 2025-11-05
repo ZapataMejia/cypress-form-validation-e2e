@@ -1,0 +1,32 @@
+{
+  "name": "cypress-form-validation-e2e",
+  "version": "1.0.0",
+  "description": "E2E test suite with Cypress and TypeScript for form validation. Includes authentication tests, input validations (email, password, required fields), error handling, and success scenarios. Implements Page Object Model for organized and reusable code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:open": "cypress open",
+    "test:smoke": "cypress run --env grepTags=@smoke",
+    "test:regression": "cypress run --env grepTags=@regression"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "testing",
+    "form-validation",
+    "typescript",
+    "page-object-model"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/grep": "^3.1.5",
+    "cypress": "^13.6.2",
+    "typescript": "^5.3.3"
+  }
+}
+
